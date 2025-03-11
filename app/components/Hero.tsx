@@ -8,8 +8,8 @@ const Hero = () => {
 
   return (
     <div>
-      <header className="py-4 bg-black sm:py-6">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <header className="sticky top-0 py-4 !bg-[#00000000] bg-black sm:py-6 p-[30px] backdrop-blur-md z-50">
+        <div className="px-4 mx-auto max-8xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="shrink-0">
               <a href="#" title="" className="flex">
@@ -122,7 +122,6 @@ const Hero = () => {
                   alt="Integration Illustration"
                   width={600}
                   height={600}
-                  priority
                 />
               </div>
             </div>
