@@ -39,10 +39,11 @@ const Hero = () => {
             </div>
 
             <nav className="hidden md:flex md:items-center md:justify-end md:space-x-12">
-              <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Products </a>
-              <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
-              <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Pricing </a>
-              <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a>
+              <a href="#hero" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Home </a>
+              <a href="#about" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About </a>
+              <a href="#services" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
+              <a href="#products" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Products </a>
+              <a href="#contact" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Contact </a>
             </nav>
           </div>
 
@@ -50,21 +51,22 @@ const Hero = () => {
           {expanded && (
             <nav>
               <div className="flex flex-col pt-8 pb-4 space-y-6">
-                <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Products </a>
-                <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
-                <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Pricing </a>
-                <a href="#" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a>
+                <a href="#hero" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Home </a>
+                <a href="#about" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> About </a>
+                <a href="#services" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
+                <a href="#products" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Products </a>
+                <a href="#contact" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Contact </a>
               </div>
             </nav>
           )}
         </div>
       </header>
 
-      <section className="py-12 bg-black sm:pb-16 lg:pb-20 xl:pb-24">
+      <section className="py-12 bg-black sm:pb-16 lg:pb-20 xl:pb-24" id="hero">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="relative flex flex-col lg:flex-row items-center">
             {/* Left content */}
-            <div className="lg:w-1/2 lg:pr-12">
+            <div className="lg:w-1/2 lg:pr-12 fadeInRight">
               <p className="text-sm font-normal tracking-widest text-gray-300 uppercase">
                 All-in-One Integration Platform
               </p>
@@ -113,7 +115,7 @@ const Hero = () => {
             </div>
 
             {/* Right content - Image and Integration cards */}
-            <div className="lg:w-1/2 mt-12 lg:mt-0">
+            <div className="lg:w-1/2 mt-12 lg:mt-0 fadeInLeft">
               <div className="relative">
                 {/* Original 3D illustration with improved sizing */}
                 <Image 

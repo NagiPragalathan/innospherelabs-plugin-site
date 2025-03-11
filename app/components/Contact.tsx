@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className="relative py-12 overflow-hidden bg-black sm:py-16 lg:py-20 xl:py-24">
+    <section className="relative py-12 overflow-hidden bg-black sm:py-16 lg:py-20 xl:py-24" id="contact">
 
         <div className="absolute inset-0">
             <img className="object-cover w-full h-full opacity-50" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png" alt="" />

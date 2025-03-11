@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <section className="py-8 bg-black sm:py-16 lg:py-20 xl:py-24">
+    <section className="py-8 bg-black sm:py-16 lg:py-20 xl:py-24" id="services">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
             <div className="max-w-md mx-auto text-center lg:max-w-2xl lg:text-left lg:mx-0">
                 <h2 className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl xl:text-6xl">Connect with all 1000+ necessary tools</h2>

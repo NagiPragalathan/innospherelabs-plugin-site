@@ -2,7 +2,7 @@ import React from 'react'
 
 const OurPlugin = () => {
   return (
-    <section className="relative overflow-hidden bg-black sm:py-16 lg:py-20 xl:py-24">
+    <section className="relative overflow-hidden bg-black sm:py-16 lg:py-20 xl:py-24" id="products">
 
         <div className="absolute inset-0">
             <img className="object-cover w-full h-full opacity-50" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png" alt="" />
