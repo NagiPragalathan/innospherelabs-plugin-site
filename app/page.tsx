@@ -1,6 +1,9 @@
 import Hero from "./components/Hero";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
+import OurPlugin from "./components/OurPlugin";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import AnimatedCursor from "react-animated-cursor"
 
 export default function Home() {
@@ -17,6 +20,9 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <Services />
+      <OurPlugin />
+      <Contact />
+      <Footer />
     </>
   );
 }

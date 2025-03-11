@@ -2,3 +2,5 @@ https://www.tailbits.com/?id=62c3ce925c115fddd392b414 =  built plugins
 https://www.tailbits.com/kits/dusk-ui?id=62c3cea05c115fddd392b41b = services
 https://www.tailbits.com/components/hero?id=62c39be90c626fc5170ad565 = hero
 https://www.tailbits.com/components/content?id=616d0133fe9824b06e924388 = about us
+https://www.tailbits.com/components/contact?id=62c383722d6a25b3da152157 = contact
+https://www.tailbits.com/components/footer?id=62036239bbf6b2cbc9a05eb6 = footer
